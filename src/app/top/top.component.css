@@ -1,0 +1,46 @@
+
+form{
+  border: solid;
+  margin-left: 5em;
+  margin-right: 5em;
+  padding: 3em;
+  
+}
+.name{
+  display: flex;
+  justify-content: space-between;
+  
+  margin-bottom: 1em;
+}
+.fn{
+  margin-right: 5px;
+}
+.ln{
+  margin-left: 5px;
+}
+.email{
+  display: flex;
+  /* justify-items: flex-start; */
+  /* justify-content: space-around; */
+  margin-bottom: 1em;
+  /* width: 100%; */
+}
+.password{
+  display: flex;
+  /* justify-content: space-around; */
+  margin-bottom: 1em;
+  /* width: 100%; */
+}
+
+input{
+  padding: 4px;
+  width: 100%;
+}
+
+button{
+  padding: 9px 12px;
+  background-color: rgb(72, 157, 246);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
